@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        display: inline-block;
+        overflow: none;
+        width: 450px;
+        height: 750px;
+    }
+
+    .container .img img {
+        display: none;
+    }
+
+    .container .img {
+        background-image: url('./assests/image-product-mobile.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+    }
+
+    .texts {
+        margin-top: -20px;
+        height: 100%;
+    }
+
+    .text {
+        width: 85%;
+        margin: auto;
+        height: 100%;
+        padding: 50px 0 0 0;
+    }
+
+}
